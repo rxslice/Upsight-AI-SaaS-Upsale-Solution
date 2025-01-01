@@ -1,0 +1,25 @@
+.customer-dashboard {
+  display: flex;
+  gap: 20px;
+}
+
+.customer-list {
+  width: 200px;
+  border-right: 1px solid #ddd;
+  padding-right: 10px;
+}
+
+.customer-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customer-item:hover, .customer-item.selected {
+  background-color: #f0f0f0;
+}
+
+.customer-details {
+  flex: 1;
+}

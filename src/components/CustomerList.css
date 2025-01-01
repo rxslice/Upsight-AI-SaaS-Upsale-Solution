@@ -1,0 +1,41 @@
+.customer-list {
+  width: 250px;
+  border-right: 1px solid #ddd;
+  padding-right: 10px;
+}
+
+.customer-list input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.customer-list .filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.customer-list .filter-container label {
+  font-weight: bold;
+}
+
+.customer-list .filter-container select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.customer-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customer-item:hover, .customer-item.selected {
+  background-color: #f0f0f0;
+}

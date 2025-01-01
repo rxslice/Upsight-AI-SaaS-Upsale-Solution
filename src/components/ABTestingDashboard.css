@@ -1,0 +1,22 @@
+.ab-testing-dashboard {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.ab-testing-dashboard h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ab-testing-dashboard h3 {
+  margin-top: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.ab-testing-dashboard p {
+  margin-bottom: 10px;
+}

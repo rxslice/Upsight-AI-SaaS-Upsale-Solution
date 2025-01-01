@@ -1,0 +1,46 @@
+.user-management {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.user-management h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-management table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-management th,
+.user-management td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.user-management th {
+  background-color: #f0f0f0;
+}
+
+.user-management select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-management .permissions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.user-management .permissions-list label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

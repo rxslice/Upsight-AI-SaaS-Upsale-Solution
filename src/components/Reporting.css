@@ -1,0 +1,36 @@
+.reporting {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.reporting h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reporting button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.reporting button:hover {
+  background-color: #45a049;
+}
+
+.reporting h3 {
+  margin-top: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.reporting p {
+  margin-bottom: 10px;
+}
